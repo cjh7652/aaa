@@ -9,7 +9,7 @@ import Navi from './layout/Navi';
 
 const DataContext=createContext();
 function App({children}) {
-	const APIKEY=process.env.REACT_APP_KEY
+	const APIKEY=process.env.REACT_APP_KEY;
 	const [data, setData] = useState([]);
 	const [loading, setLoading]=useState(true);
 
